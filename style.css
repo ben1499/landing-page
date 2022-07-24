@@ -81,3 +81,39 @@ ul {
     font-weight: 700;
     font-size: 16px;
 }
+
+/* INFORMATION Section */
+
+#info {
+    text-align: center;
+    padding-bottom: 68px;
+}
+
+#info img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color:  #1f2937;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-content {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+
+}
+
+.info-sub {
+    max-width: 200px;
+}
