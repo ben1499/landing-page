@@ -70,16 +70,18 @@ ul {
 .subtext {
     color: #e5e7eb;
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .btn {
     background: blue;
     color: #fff;
-    padding: 8px 16px;
+    padding: 8px 20px;
     border-radius: 5px;
     border: 1px blue;
     font-weight: 700;
     font-size: 16px;
+    margin-top: 12px;
 }
 
 /* INFORMATION Section */
@@ -185,9 +187,6 @@ ul {
     flex:1;
 }
 
-.cta-right {
-   
-}
 
 .sgnup {
     background-color: #3882f6;
@@ -195,5 +194,17 @@ ul {
     border-radius: 8px;
     color: #fff;
     padding: 8px 28px;
+    font-size: 18px;
+}
+
+/* Footer Section */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: rgb(238, 184, 184);
+    padding: 50px 0;
     font-size: 18px;
 }
