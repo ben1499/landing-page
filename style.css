@@ -86,13 +86,13 @@ ul {
 
 #info {
     text-align: center;
-    padding-bottom: 68px;
+    padding-bottom: 120px;
 }
 
 #info img {
-    width: 120px;
-    height: 120px;
-    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
     border-radius: 8px;
     padding: 20px;
     
@@ -103,8 +103,8 @@ ul {
     font-weight: 900;
     color:  #1f2937;
     font-family: sans-serif;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .info-content {
@@ -116,4 +116,34 @@ ul {
 
 .info-sub {
     max-width: 200px;
+}
+
+/* Quote Section */
+
+#quote {
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+
+.quote-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.quote-sub {
+    
+    max-width: 800px;
+    font-style: italic;
+    font-size: 36px;
+    color:#1f2937;
+}
+
+.quote-auth {
+    display: flex;
+   margin-left: 480px;
+   font-size: 36px;
+   font-weight: 900;
 }
