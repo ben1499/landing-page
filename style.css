@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 h1 {
@@ -48,7 +50,7 @@ ul {
 
 .main-title {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 700;
     color: #f9faf8;
 }
 
@@ -106,4 +108,31 @@ img {
     border: 4px solid #3882f6;
     border-radius: 12px;
     margin-bottom: 10px;
+}
+
+#quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 780px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: 700;
 }
