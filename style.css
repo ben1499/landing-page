@@ -35,7 +35,7 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .hero-section {
@@ -74,4 +74,36 @@ ul {
 img {
     width: 500px;
     height: 250px;
+}
+
+#info-section{
+    padding-bottom: 200px;
+}
+
+#info-section h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 40px;
+}
+
+.info-box {
+    height: 170px;
+    width: 170px;
+    text-align: center;
+}
+
+.box {
+    height: 170px;
+    width: 170px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 10px;
 }
