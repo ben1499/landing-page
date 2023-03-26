@@ -136,3 +136,40 @@ img {
     font-size: 28px;
     font-weight: 700;
 }
+
+#cta-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    color: #f9faf8;
+}
+
+.cta {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px;
+    border-radius: 8px;
+    width: 950px;
+}
+
+.cta h4 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.cta p {
+    color: #e5e7eb;
+    margin-top: 2px;
+}
+
+.cta-btn {
+    border: none;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border-radius: 6px;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 700;
+}
